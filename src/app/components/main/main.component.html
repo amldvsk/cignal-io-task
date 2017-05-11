@@ -1,0 +1,11 @@
+<div *ngIf="!cards">
+  <div class="loading">
+    <div class="spinner"></div>
+  </div>
+</div>
+
+
+<div *ngIf="cards">
+  <input type="text" placeholder="Search App..." [(ngModel)]="searchTerm" (ngModelChange)="onSearchTermChange($event)" />
+  <app-cards-list [cards]="cardsFilter"></app-cards-list>
+</div>

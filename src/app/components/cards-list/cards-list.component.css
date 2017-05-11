@@ -1,0 +1,7 @@
+
+
+.card-list .card {
+    float: left;
+    width: calc(33% - 2em);
+    margin: 1em 1em 2em 1em;
+}

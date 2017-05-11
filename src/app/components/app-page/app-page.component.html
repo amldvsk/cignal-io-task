@@ -1,0 +1,23 @@
+<div class="app-data">
+
+
+
+  <div *ngIf="!cardData">
+    <div class="loading">
+      <div class="spinner"></div>
+    </div>
+  </div>
+  <div *ngIf="cardData">
+    <img [src]="cardData.photo_url" alt="">
+    <h1>{{ cardData.name }}</h1>
+    <div class="app-summery">
+      <p>{{ cardData.summary }}</p>
+    </div>
+  </div>
+
+
+
+
+  
+
+</div>

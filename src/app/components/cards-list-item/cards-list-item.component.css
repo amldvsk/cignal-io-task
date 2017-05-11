@@ -1,0 +1,27 @@
+.card-item {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 20px 20px rgba(0,0,0,.08);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    text-decoration: none;
+    color: #444;
+}
+
+.card-item:hover {
+    box-shadow: 0 40px 40px rgba(0,0,0,.16);
+    transform: translate(0,-20px);
+    transition-delay: 0s !important;
+}
+
+.card-item img {
+    flex: 1;
+}
+
+h4 {
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.app-summery {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.app-summery p {
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: lighter;
+    font-size: 1.4em;
+}
+
